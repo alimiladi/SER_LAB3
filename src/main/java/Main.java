@@ -60,16 +60,16 @@ public class Main {
 
         XPathFactory xpfac = XPathFactory.instance();
 
-        XPathExpression xp = xpfac.compile("//Genre", Filters.element());
-        List<Element> resultat = xp.evaluate(docSource);
+        XPathExpression xp = xpfac.compile("//Projection", Filters.element());
+        List<Element> resultat = (List<Element>) xp.evaluate(docSource);
 
-        Element elemGenres = new Element("Genres");
-        for (Element genreSource : resultat) {
-            String valeur = genreSource.getText();
-            Element elemGenre = new Element("Genre").setText(valeur);
-            elemGenres.addContent(elemGenre);
+        Element elemProjections = new Element("Projections");
+        for (Element projectionSource : resultat) {
+            String valeur = projectionSource.getText();
+            Element elemProjection = new Element("Projection").setText(valeur);
+            elemProjections.addContent(elemProjection);
         }
-        plex.addContent(elemGenres);
+        plex.addContent(elemProjections);
         // -- Enregistrer le résultat dans le fichier projections.xml
         enregistrer(docProjections, "projections.xml");
     }
