@@ -3,7 +3,11 @@
 <?xml-stylesheet href="projections.xsl" type="text/xsl"?>
 <plex>
   <projections>
-    <projection film_id="F1" titre="Tomorrow Never Dies" />
-    <projection film_id="F2" titre="Ocean's Thirteen" />
+    <projection film_id="F1" titre="Tomorrow Never Dies">
+      <salle taille="200">Flon 1</salle>
+    </projection>
+    <projection film_id="F2" titre="Ocean's Thirteen">
+      <salle taille="200">Flon 1</salle>
+    </projection>
   </projections>
 </plex>

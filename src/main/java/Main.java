@@ -65,6 +65,8 @@ public class Main {
         String nodeProjectionsFinal = "projections";
         String nodeProjectionFinal = "projection";
         String nodeSalle = "salle";
+        String nodeDateHeure = "date_heure";
+
 
         //Attributs document originel
         String attrID = "id";
@@ -85,7 +87,7 @@ public class Main {
 
         System.out.println("Nombre de projection : " +listProj.size());
         for (Element e:
-             listProj) {
+                listProj) {
 
             //System.out.println(e.getChildren().toString());
 
@@ -99,7 +101,12 @@ public class Main {
             Element salle = new Element(nodeSalle)
                     .setText(e.getChild(nodeSalle)
                             .getChildText("no"));
-            //salle.setAttribute(attrTaille,);
+            salle.setAttribute(attrTaille,e.getChild(nodeSalle)
+                    .getChildText(attrTaille));
+            singleProj.addContent(salle);
+
+            //ajout des datesheures
+            Element dateHeure = new Element()
 
 
             // ajouts des fils projection à projections
