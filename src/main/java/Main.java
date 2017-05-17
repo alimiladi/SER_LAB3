@@ -185,7 +185,7 @@ public class Main {
                 elemSexe.setAttribute("sexe", acteurSource.getAttributeValue("sexe"));
 
             // -- Définition des attributs d'un acteur
-            elemActeur.setAttribute("no", acteurSource.getAttributeValue("id"));
+            elemActeur.setAttribute("no", "A"+acteurSource.getAttributeValue("id"));
 
             // -- Rajout des éléments déinis précédemment dans l'élément acteur
             elemActeur.addContent(elemNom)
@@ -220,7 +220,7 @@ public class Main {
         HashSet<Element> langages = new HashSet<Element>();
         for (Element langageSource : resultat) {
             Element elemLangage = new Element("langage").setText(langageSource.getText())
-                    .setAttribute("no", langageSource.getAttributeValue("id"));
+                    .setAttribute("no", "L"+langageSource.getAttributeValue("id"));
             addElem(elemLangage, langages);
         }
         for (Element elemLangage : langages) {
@@ -238,7 +238,7 @@ public class Main {
         HashSet<Element> genres = new HashSet<Element>();
         for (Element genreSource : resultat) {
             Element elemGenre = new Element("genre").setText(genreSource.getText());
-            elemGenre.setAttribute("no", genreSource.getAttributeValue("id"));
+            elemGenre.setAttribute("no", "G"+genreSource.getAttributeValue("id"));
             addElem(elemGenre, genres);
         }
         for (Element elemGenre : genres) {
@@ -256,7 +256,7 @@ public class Main {
         HashSet<Element> motCles = new HashSet<Element>();
         for (Element motcleSource : resultat) {
             Element elemMotcle = new Element("mot_cle").setText(motcleSource.getChildText("label"))
-                    .setAttribute("no", motcleSource.getAttributeValue("id"));
+                    .setAttribute("no", "M"+motcleSource.getAttributeValue("id"));
             addElem(elemMotcle, motCles);
         }
         for (Element elemMotcle : motCles) {
