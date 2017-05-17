@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7da816f2-1369-4a93-ae81-d3150c7b16c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -539,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495029707384</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajout des salles dans projections">
+      <created>1495030306197</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1495030306197</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -600,7 +606,8 @@
     <MESSAGE value="feuille xsl" />
     <MESSAGE value="ajout des projections et projection" />
     <MESSAGE value="ajout des projections et projection corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout des projections et projection corrections" />
+    <MESSAGE value="ajout des salles dans projections" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des salles dans projections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
