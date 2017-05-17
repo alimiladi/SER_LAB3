@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7da816f2-1369-4a93-ae81-d3150c7b16c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projections.xml" afterPath="$PROJECT_DIR$/projections.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -535,14 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1495033986657</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixe de tout les ids">
+      <created>1495034531607</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495034531607</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="25924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="35" width="3840" height="2125" extended-state="6" />
+    <frame x="0" y="35" width="3840" height="2125" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -585,7 +590,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout de dtd" />
     <MESSAGE value="must fix actor id encore" />
-    <option name="LAST_COMMIT_MESSAGE" value="must fix actor id encore" />
+    <MESSAGE value="fixe de tout les ids" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixe de tout les ids" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
