@@ -64,6 +64,7 @@ public class Main {
         //nom noeud dans le docuement final
         String nodeProjectionsFinal = "projections";
         String nodeProjectionFinal = "projection";
+        String nodeSalle = "salle";
 
         //Attributs document originel
         String attrID = "id";
@@ -73,6 +74,7 @@ public class Main {
         String prefxAttrDTDID = "F";
         String attrDTDFilm = "film";
         String attrDTDTitre = "titre";
+        String attrTaille = "taille";
 
 
 
@@ -93,6 +95,11 @@ public class Main {
             singleProj.setAttribute(attrDTDTitre,e.getChild("film").getChildText("titre"));
 
 
+            //ajout des salles
+            Element salle = new Element(nodeSalle)
+                    .setText(e.getChild(nodeSalle)
+                            .getChildText("no"));
+            //salle.setAttribute(attrTaille,);
 
 
             // ajouts des fils projection à projections
