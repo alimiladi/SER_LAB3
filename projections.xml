@@ -5,11 +5,11 @@
   <projections>
     <projection film_id="F2822603" titre="Tomorrow Never Dies">
       <salle taille="200">Flon 1</salle>
-      <dateHeure format="dd-yy-yyyy - HH:mm">12-04-2017 - 10:07</dateHeure>
+      <date_heure format="dd-yy-yyyy - HH:mm">12-04-2017 - 10:07</date_heure>
     </projection>
     <projection film_id="F2510708" titre="Ocean's Thirteen">
       <salle taille="200">Flon 1</salle>
-      <dateHeure format="dd-yy-yyyy - HH:mm">12-04-2017 - 13:00</dateHeure>
+      <date_heure format="dd-yy-yyyy - HH:mm">12-04-2017 - 13:00</date_heure>
     </projection>
   </projections>
   <films>
@@ -17,7 +17,7 @@
       <photo url="" />
       <titre>Tomorrow Never Dies</titre>
       <duree format="minutes">119</duree>
-      <synopsis>Agent 007, the unstoppable action hero must prevent a tremendous disaster ripped from tomorrow's headlines. Someone is pitting the world's superpowers against each other - and only James Bond can stop it. When a British warship is mysteriously destroyed in Chinese waters, the world teeters on the brink of World War III - until 007 zeros in on the true criminal mastermind. Bond's do-or-die mission takes him to Elliot Carver, a powerful media mogul who manipulates world events as easily as he changes headlines from his global media empire. After soliciting help from Carver's sexy wife, Paris, Bond join forces with a stunning yet lethal Chinese agent, Wai Lin, in a series of explosive chases, brutal confrontations and breathtaking escapes as they race to stop the presses on Carver's next planned news story: global pandemonium!</synopsis>
+      <synopsys>Agent 007, the unstoppable action hero must prevent a tremendous disaster ripped from tomorrow's headlines. Someone is pitting the world's superpowers against each other - and only James Bond can stop it. When a British warship is mysteriously destroyed in Chinese waters, the world teeters on the brink of World War III - until 007 zeros in on the true criminal mastermind. Bond's do-or-die mission takes him to Elliot Carver, a powerful media mogul who manipulates world events as easily as he changes headlines from his global media empire. After soliciting help from Carver's sexy wife, Paris, Bond join forces with a stunning yet lethal Chinese agent, Wai Lin, in a series of explosive chases, brutal confrontations and breathtaking escapes as they race to stop the presses on Carver's next planned news story: global pandemonium!</synopsys>
       <critiques />
       <langages liste="L4 L2 L5 L3 L1 " />
       <genres liste="G1 G2 G3 G4 " />
@@ -31,7 +31,7 @@
       <photo url="" />
       <titre>Ocean's Thirteen</titre>
       <duree format="minutes">122</duree>
-      <synopsis>The last time we saw Danny Ocean's crew, they were paying back ruthless casino mogul Terry Benedict after stealing millions from him. However, it's been a while since they've come back together, which is all about to change. When one of their own, Reuben Tishkoff, builds a hotel with another casino owner, Willy Bank, the last thing he ever wanted was to get cut out of the deal personally by the loathsome Bank. Bank's attitude even goes so far as to finding the amusement in Tishkoff's misfortune when the double crossing lands Reuben in the hospital because of a heart attack. However, Danny and his crew won't stand for Bank and what he's done to a friend. Uniting with their old enemy Benedict, who himself has a vendetta against Bank, the crew is out to pull off a major plan; one that will unfold on the night Bank's newest hot spot opens up. They're not in this for the money, but for the revenge.</synopsis>
+      <synopsys>The last time we saw Danny Ocean's crew, they were paying back ruthless casino mogul Terry Benedict after stealing millions from him. However, it's been a while since they've come back together, which is all about to change. When one of their own, Reuben Tishkoff, builds a hotel with another casino owner, Willy Bank, the last thing he ever wanted was to get cut out of the deal personally by the loathsome Bank. Bank's attitude even goes so far as to finding the amusement in Tishkoff's misfortune when the double crossing lands Reuben in the hospital because of a heart attack. However, Danny and his crew won't stand for Bank and what he's done to a friend. Uniting with their old enemy Benedict, who himself has a vendetta against Bank, the crew is out to pull off a major plan; one that will unfold on the night Bank's newest hot spot opens up. They're not in this for the money, but for the revenge.</synopsys>
       <critiques />
       <langages liste="L6 L3 L5 " />
       <genres liste="G3 G1 " />

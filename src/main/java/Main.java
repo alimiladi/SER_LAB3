@@ -71,7 +71,7 @@ public class Main {
 
             // -- Récupération de l'élément dateHeure de la source et création d'un nouvel élément dateHeure selon la dtd
             Element dateHeureSource = projectionSource.getChild("dateHeure");
-            Element elemDateHeure = new Element("dateHeure").setText(dateHeureSource.getText());
+            Element elemDateHeure = new Element("date_heure").setText(dateHeureSource.getText());
             elemDateHeure.setAttribute("format", dateHeureSource.getAttributeValue("format"));
 
             elemProjection.addContent(elemSalle);
@@ -90,7 +90,7 @@ public class Main {
             // -- Ajout des éléments spécifiés dans la dtd en allant les chercher dans le film source
             Element elemTitre = new Element("titre").setText(filmSource.getChildText("titre"));
             Element elemDuree = new Element("duree").setText(filmSource.getChildText("duree"));
-            Element elemSynopsis = new Element("synopsis").setText(filmSource.getChildText("synopsis"));
+            Element elemSynopsis = new Element("synopsys").setText(filmSource.getChildText("synopsis"));
 
             // -- Ajout de l'élément photo uniquement si il existe dans le xml original
             if (filmSource.getChild("photo") != null) {
