@@ -38,11 +38,11 @@ public class Main {
         // Construction du document résultat
         Document docProjections = new Document();
 
-        // -- Ajout d'une référence à la DTD
+        // Ajout d'une référence à la DTD
         DocType docType = new DocType("plex", "projections.dtd");
         docProjections.addContent(docType);
 
-        // -- Ajout de la référence à la feuille XSL
+        // Ajout de la référence à la feuille XSL
         ProcessingInstruction piXSL = new ProcessingInstruction("xml-stylesheet");
         HashMap<String, String> piAttributes = new HashMap<String, String>();
         piAttributes.put("type", "text/xsl");
@@ -50,9 +50,47 @@ public class Main {
         piXSL.setData(piAttributes);
         docProjections.addContent(piXSL);
 
-        // -- Ajout élément racine "plex"
+        // Ajout de élément racine "plex"
         Element plex = new Element("plex");
 
+        // Filtre xpath permettant de rechercher dans le document XML
+        XPathFactory xPathFactory = XPathFactory.instance();
+
+
+        // Noms des noeuds dans le document originel
+        String nodeProjections = "Projections";
+        String nodeProjection = "Projection";
+
+        //Attributs document originel
+        String attrID = "id";
+
+        //Attribut document final
+        String attrDTDID = "film_id";
+        String prefxAttrDTDID = "F";
+        String attrDTDFilm = "film";
+
+
+
+        // Créer un filtre et récupérer les noeuds dans projection
+        Element Projections = new Element(nodeProjections);
+        XPathExpression<Element> expr = xPathFactory.compile("//"+nodeProjections, Filters.element());
+        List<Element> listProj = expr.evaluate(docSource);
+
+        System.out.println(listProj.size());
+        for (Element e:
+             listProj) {
+
+            //parametre les attributs des projections film_id et titre du film
+            Element singleProj = new Element(nodeProjection);
+            singleProj.setAttribute(attrID,prefxAttrDTDID+e.getAttributeValue(attrID));
+            singleProj.setAttribute(attrDTDFilm,e.getChild("film").getChild("titre").getText());
+
+
+
+
+            // ajouts des fils projection à projections
+            Projections.addContent(singleProj);
+        }
 
 
 
