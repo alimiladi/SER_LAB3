@@ -77,6 +77,8 @@ public class Main {
         String attrDTDFilm = "film";
         String attrDTDTitre = "titre";
         String attrTaille = "taille";
+        String attrFormat = "format";
+        String attrFormatHoure = "dd.MM.YYYY HH:mm";
 
 
 
@@ -106,7 +108,7 @@ public class Main {
             singleProj.addContent(salle);
 
             //ajout des datesheures
-            Element dateHeure = new Element()
+            Element dateHeure = new Element(nodeDateHeure).setAttribute(attrFormat,);
 
 
             // ajouts des fils projection à projections

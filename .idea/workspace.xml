@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7da816f2-1369-4a93-ae81-d3150c7b16c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projections.xml" afterPath="$PROJECT_DIR$/projections.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+            <state relative-caret-position="431">
+              <caret line="80" column="52" lean-forward="false" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -554,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495030309861</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finition des salles dans projections">
+      <created>1495030892934</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1495030892934</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -616,7 +622,8 @@
     <MESSAGE value="ajout des projections et projection" />
     <MESSAGE value="ajout des projections et projection corrections" />
     <MESSAGE value="ajout des salles dans projections" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout des salles dans projections" />
+    <MESSAGE value="finition des salles dans projections" />
+    <option name="LAST_COMMIT_MESSAGE" value="finition des salles dans projections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -792,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+        <state relative-caret-position="431">
+          <caret line="80" column="52" lean-forward="false" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
