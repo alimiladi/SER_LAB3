@@ -1,3 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plex SYSTEM "projections.dtd">
 <?xml-stylesheet href="projections.xsl" type="text/xsl"?>
+<plex>
+  <projections>
+    <projection film_id="F2822603" titre="Tomorrow Never Dies">
+      <salle taille="200">Flon 1</salle>
+      <dateHeure format="dd-yy-yyyy - HH:mm">12-04-2017 - 10:07</dateHeure>
+    </projection>
+    <projection film_id="F2510708" titre="Ocean's Thirteen">
+      <salle taille="200">Flon 1</salle>
+      <dateHeure format="dd-yy-yyyy - HH:mm">12-04-2017 - 13:00</dateHeure>
+    </projection>
+  </projections>
+  <films>
+    <film no="F2822603">
+      <photo url="" />
+      <titre>Tomorrow Never Dies</titre>
+      <duree format="minutes">119</duree>
+      <synopsis>Agent 007, the unstoppable action hero must prevent a tremendous disaster ripped from tomorrow's headlines. Someone is pitting the world's superpowers against each other - and only James Bond can stop it. When a British warship is mysteriously destroyed in Chinese waters, the world teeters on the brink of World War III - until 007 zeros in on the true criminal mastermind. Bond's do-or-die mission takes him to Elliot Carver, a powerful media mogul who manipulates world events as easily as he changes headlines from his global media empire. After soliciting help from Carver's sexy wife, Paris, Bond join forces with a stunning yet lethal Chinese agent, Wai Lin, in a series of explosive chases, brutal confrontations and breathtaking escapes as they race to stop the presses on Carver's next planned news story: global pandemonium!</synopsis>
+      <critiques />
+      <langages liste="L5 L3 L2 L1 L4 " />
+      <genres liste="G4 G1 G3 G2 " />
+      <mots_cles liste="M30 M4 M44 M16 M24 " />
+      <roles>
+        <role place="1" personnage="James Bond" acteur_id="A1" />
+        <role place="2" personnage="Elliot Carver" acteur_id="A2" />
+      </roles>
+    </film>
+    <film no="F2510708">
+      <photo url="" />
+      <titre>Ocean's Thirteen</titre>
+      <duree format="minutes">122</duree>
+      <synopsis>The last time we saw Danny Ocean's crew, they were paying back ruthless casino mogul Terry Benedict after stealing millions from him. However, it's been a while since they've come back together, which is all about to change. When one of their own, Reuben Tishkoff, builds a hotel with another casino owner, Willy Bank, the last thing he ever wanted was to get cut out of the deal personally by the loathsome Bank. Bank's attitude even goes so far as to finding the amusement in Tishkoff's misfortune when the double crossing lands Reuben in the hospital because of a heart attack. However, Danny and his crew won't stand for Bank and what he's done to a friend. Uniting with their old enemy Benedict, who himself has a vendetta against Bank, the crew is out to pull off a major plan; one that will unfold on the night Bank's newest hot spot opens up. They're not in this for the money, but for the revenge.</synopsis>
+      <critiques />
+      <langages liste="L3 L6 L5 " />
+      <genres liste="G3 G1 " />
+      <mots_cles liste="M323 M321 M358 M381 M350 " />
+      <roles>
+        <role place="2" personnage="Rusty Ryan" acteur_id="A3" />
+        <role place="1" personnage="Danny Ocean" acteur_id="A4" />
+      </roles>
+    </film>
+  </films>
+  <acteurs>
+    <acteur no="1">
+      <nom>Brosnan, Pierce</nom>
+      <nom_naissance>Brosnan, Pierce Brendan</nom_naissance>
+      <sexe />
+      <date_naissance format="dd-MM-yyyy">16-05-1953</date_naissance>
+      <date_deces format="dd-MM-yyyy" />
+      <biographie>Pierce Brosnan was born in Navan, County Meath, Ireland, and lived in Navan, County Meath, until he moved to England, UK, at an early age (thus explaining his ability to play men from both backgrounds convincingly). His father left the household when Pierce was a child and although reunited later in life, the two have never had a close relationship. His most popular role is that of British secret agent James Bond. The death, in 1991, of 'Cassandra Harris (I)' (qv), his wife of eleven years, left him with three children - Christopher and Charlotte from Cassandra's first marriage and Sean from their marriage. Since her death, he has had two children with his second wife, 'Keely Shaye Smith' (qv).</biographie>
+    </acteur>
+    <acteur no="2">
+      <nom>Pryce, Jonathan</nom>
+      <nom_naissance>Price, John</nom_naissance>
+      <sexe />
+      <date_naissance format="dd-MM-yyyy">01-06-1947</date_naissance>
+      <date_deces format="dd-MM-yyyy" />
+      <biographie>Jonathan Pryce was born on June 1, 1947, in Holywell, Wales. His father, named Isaac Price, was a coal miner, who died in 1976. His mother, named Margaret Ellen (nee Williams), was a retail cashier. He left the home of his parents at age 16 to attend an art school, where he became interested in drama. At some point he changed the spelling of his last name from Price to Pryce. He studied acting on a scholarship at the Royal Academy of Dramatic Art in London. After graduation from RADA, he joined the Liverpool Everyman Theatre and eventually became its Artistic Director.  In the 1970s Pryce established himself on the London stage with appearances in 'The Taming of the Shrew', 'Hamlet', and 'Measure for Measure' among other plays. He won the 1977 Tony Award for his Broadway debut in 'Comedians', for which he also earned the 1977 Theatre World Award and the 1977 nomination for Drama Desk Outstanding Actor Award. Pryce earned his second Tony Award 15 years later for the role as "The Engineer", a half-Vietnamese/half French pimp in 'Miss Saigon'. Pryce created the role in the original London production and agreed to reprise the role on Broadway in a transplant of the same production. Despite controversy over his appearance -- the actors union decried the long-standing practice of hiring white actors to play Asian or Eurasian characters, especially given the paucity of roles for Asian characters, and it also objected to the producer's refusal to even audition any Asian actors -- he gave a brilliant performance.  In 1976 Pryce made his big screen debut in _Voyage of the Damned (1976)_ (qv). But it wasn't until 1983 that he made a strong impression with his scary performance as a freaky manipulative Mr. Dark in Ray Bradbury's _Something Wicked This Way Comes (1983)_ (qv). Pryce shot to fame with _Brazil (1985)_ (qv) and his role as Sam Lowry, a technocrat trying to correct an error caused by a bug and himself becomes entangled in psychopathic bureaucracy eventually becoming an enemy of the state. He also filled such strong and authoritative roles, as president Juan Peron opposite Madonna in _Evita (1996)_ (qv), then co-starred opposite Pierce Brosnan as Elliot Carver, the evil megalomaniac media mogul in the 18th Bond film, _Tomorrow Never Dies (1997)_ (qv).  Pryce's versatility and multifaceted talent rarely had a chance to take him beyond playing freaks and villains in film, an imposed forte which he, however, managed to overcome in his numerous stage performances and in a few film and TV works. He went on playing a range of characters marked with sophistication and depth, such as his subtle and nuanced portrayal of author Lytton Strachey in _Carrington (1995)_ (qv), for which he won the Best Actor Award at Cannes. Pryce also shone in musicals 'My Fair Lady' and 'Oliver' to name just a few. Pryce made numerous works for television ranging from costume dramas to comedy, and from narrations to singing. In January 2006, he replaced John Lithgow as Lawrence Jameson in the acclaimed musical version of 'Dirty Rotten Scoundrels'. He appeared as the timid Jamaican Governor Wetherby Swann in _Pirates of the Caribbean: The Curse of the Black Pearl (2003)_ (qv), and the sequel _Pirates of the Caribbean: Dead Man's Chest (2006)_ (qv), and the third installment of the Pirates franchise, _Pirates of the Caribbean: At World's End (2007)_ (qv).  Jonathan Pryce has been with his partner, actress Kate Fahy, since 1974 when they met at the Everyman Theatre Liverpool Company, though they have never married. They have two sons, Patrick (born 1983) and Gabriel (born 1986), and one daughter, Phoebe (born 1990). Pryce and Fahy also co-starred in the 2004 production of 'The Goat, or Who Is Sylvia?'. Fahy and Pryce reside with their family in England.</biographie>
+    </acteur>
+    <acteur no="3">
+      <nom>Pitt, Brad</nom>
+      <nom_naissance>Pitt, William Bradley</nom_naissance>
+      <sexe />
+      <date_naissance format="dd-MM-yyyy">18-12-1963</date_naissance>
+      <date_deces format="dd-MM-yyyy" />
+      <biographie>Brad Pitt was born on December 18, 1963 in Shawnee, Oklahoma and raised in Springfield, Missouri. His mother's name is Jane Etta Hillhouse. His father, William (Bill) Pitt, worked in management at a trucking firm in Springfield. He has a younger brother, Douglas (Doug) Pitt and a younger sister Julie Neal Pitt. At Kickapoo High School, Pitt was involved in sports, debating, student government and school musicals. Pitt attended the University of Missouri, where he majored in journalism with a focus on advertising. He occasionally acted in fraternity shows. He left college two credits short of graduating to move to California. Before he became successful at acting, Pitt supported himself by driving strippers in limos, moving refrigerators and dressing as a giant chicken while working for "el Pollo Loco".</biographie>
+    </acteur>
+    <acteur no="4">
+      <nom>Clooney, George</nom>
+      <nom_naissance>Clooney, George Timothy</nom_naissance>
+      <sexe />
+      <date_naissance format="dd-MM-yyyy">06-05-1961</date_naissance>
+      <date_deces format="dd-MM-yyyy" />
+      <biographie>Born in Lexington, Kentucky, as son of 'Nick Clooney' (qv), a TV newscaster of many years, who hosted a talk show at Cincinnati and often invited George into the studios already at the age of 5. Avoiding competition with his father, he quit his job as broadcast journalist after a short time.  George studied for a few years at Northern Kentucky University. He failed to join the Cincinnati Reds baseball team. He came to acting when his cousin, 'Miguel Ferrer (I)' (qv), got him a small part in a feature film. After that, in 1982, he moved to Los Angeles and tried for a whole year to get a role while he slept in a friend's closet. His first movie, together with 'Charlie Sheen' (qv), stayed unreleased but got him the producers' attention for later contracts.</biographie>
+    </acteur>
+  </acteurs>
+  <liste_langages>
+    <langage no="3">English</langage>
+    <langage no="1">Danish</langage>
+    <langage no="4">Mandarin</langage>
+    <langage no="6">French</langage>
+    <langage no="5">German</langage>
+    <langage no="2">Cantonese</langage>
+  </liste_langages>
+  <liste_genres>
+    <genre no="2" />
+    <genre no="4" />
+    <genre no="1" />
+    <genre no="3" />
+  </liste_genres>
+  <liste_mots_cles>
+    <mot_cle no="323">elevator-shaft</mot_cle>
+    <mot_cle no="358">director-also-cinematographer</mot_cle>
+    <mot_cle no="30">british-navy</mot_cle>
+    <mot_cle no="24">machine-gun</mot_cle>
+    <mot_cle no="381">career-criminal</mot_cle>
+    <mot_cle no="4">admiral</mot_cle>
+    <mot_cle no="321">video-surveillance</mot_cle>
+    <mot_cle no="44">missile</mot_cle>
+    <mot_cle no="16">automobile</mot_cle>
+    <mot_cle no="350">safe</mot_cle>
+  </liste_mots_cles>
+</plex>
