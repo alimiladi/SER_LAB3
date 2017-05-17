@@ -61,6 +61,10 @@ public class Main {
         String nodeProjections = "Projections";
         String nodeProjection = "Projection";
 
+        //nom noeud dans le docuement final
+        String nodeProjectionsFinal = "projections";
+        String nodeProjectionFinal = "projection";
+
         //Attributs document originel
         String attrID = "id";
 
@@ -68,22 +72,25 @@ public class Main {
         String attrDTDID = "film_id";
         String prefxAttrDTDID = "F";
         String attrDTDFilm = "film";
+        String attrDTDTitre = "titre";
 
 
 
         // Créer un filtre et récupérer les noeuds dans projection
-        Element Projections = new Element(nodeProjections);
-        XPathExpression<Element> expr = xPathFactory.compile("//"+nodeProjections, Filters.element());
+        Element Projections = new Element(nodeProjectionsFinal);
+        XPathExpression<Element> expr = xPathFactory.compile("//"+nodeProjection, Filters.element());
         List<Element> listProj = expr.evaluate(docSource);
 
-        System.out.println(listProj.size());
+        System.out.println("Nombre de projection : " +listProj.size());
         for (Element e:
              listProj) {
 
+            //System.out.println(e.getChildren().toString());
+
             //parametre les attributs des projections film_id et titre du film
-            Element singleProj = new Element(nodeProjection);
-            singleProj.setAttribute(attrID,prefxAttrDTDID+e.getAttributeValue(attrID));
-            singleProj.setAttribute(attrDTDFilm,e.getChild("film").getChild("titre").getText());
+            Element singleProj = new Element(nodeProjectionFinal);
+            singleProj.setAttribute(attrDTDID,prefxAttrDTDID+e.getAttributeValue(attrID));
+            singleProj.setAttribute(attrDTDTitre,e.getChild("film").getChildText("titre"));
 
 
 
@@ -94,9 +101,12 @@ public class Main {
 
 
 
+        plex.addContent(Projections);
+        docProjections.addContent(plex);
+
         //Exemple d'utilisation XPath: Recherche des éléments "Genre" dans le fichier de départ
 
-        XPathFactory xpfac = XPathFactory.instance();
+        /*XPathFactory xpfac = XPathFactory.instance();
 
         XPathExpression xp = xpfac.compile("//Projection", Filters.element());
         List<Element> resultat = (List<Element>) xp.evaluate(docSource);
@@ -108,6 +118,7 @@ public class Main {
             elemProjections.addContent(elemProjection);
         }
         plex.addContent(elemProjections);
+        */
         // -- Enregistrer le résultat dans le fichier projections.xml
         enregistrer(docProjections, "projections.xml");
     }
